@@ -1,12 +1,10 @@
-# deu-chat-halebeyaz
-deu-chat-halebeyaz created by GitHub Classroom
-
+# chat-halebeyaz
 how to run server:
-gcc 2017510017_server.c -o server
+gcc chat_server.c -o server
 ./server
 
 how to run client:
-gcc 2017510017client.c -o client -pthread
+gcc chat_client.c -o client -pthread
 ./client 127.0.0.1
 
 !!!
